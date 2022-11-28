@@ -11,11 +11,6 @@ const PostTemplate = () => (
     <h1>Hi from the comments page</h1>
     <p>Leave a comment below</p>
     <Link to="/">Go back to the homepage</Link>
-      <Disqus
-          identifier={post.id}
-          title={post.title}
-          url={`${config.siteUrl}${location.pathname}`}
-      />
   </Layout>
 )
 
