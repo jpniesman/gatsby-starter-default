@@ -23,6 +23,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+          shortname: `team-6-portfolio`
+      }
+  },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
