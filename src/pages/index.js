@@ -27,7 +27,7 @@ const links = [
   },
   {
     text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
+    url: "page-2",
     description:
       "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
   },
