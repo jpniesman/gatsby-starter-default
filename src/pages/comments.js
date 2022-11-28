@@ -4,19 +4,24 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const SecondPage = () => (
+import { Disqus } from 'gatsby-plugin-disqus';
+
+const PostTemplate = () => (
   <Layout>
     <h1>Hi from the comments page</h1>
     <p>Leave a comment below</p>
     <Link to="/">Go back to the homepage</Link>
+      <Disqus
+          identifier={post.id}
+          title={post.title}
+          url={`${config.siteUrl}${location.pathname}`}
+      />
   </Layout>
 )
 
-import { Disqus } from 'gatsby-plugin-disqus';
-
 // const Template = () => (
 //     /* Page contents */
-
+//
 //     <Disqus
 //         config={
 //             /* Replace PAGE_URL with your post's canonical URL variable */
@@ -31,4 +36,4 @@ import { Disqus } from 'gatsby-plugin-disqus';
 
 export const Head = () => <Seo title="Page two" />
 
-export default SecondPage
+export default PostTemplate
