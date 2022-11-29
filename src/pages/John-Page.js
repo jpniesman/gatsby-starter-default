@@ -4,10 +4,20 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Comments from '../components/Comments'
 import {Link} from "gatsby";
+import {StaticImage} from "gatsby-plugin-image";
 
 const PostTemplate = () => (
     <Layout>
-        <h1>Hi from John's page</h1>
+        <h1>Meet John Niesman...</h1>
+        <StaticImage
+            src="../images/john_group.png"
+            loading="eager"
+            // width={64}
+            // quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt=""
+            style={{ marginBottom: `var(--space-3)` }}
+        />
         <p>Leave a comment below</p>
         <div><Comments/></div>
         <Link to="/">Go back to the homepage</Link>
