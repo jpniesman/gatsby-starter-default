@@ -11,25 +11,25 @@ const links = [
     text: "Team Intro Page",
     url: "team-intro",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "Click to learn more about the members of Group 6.",
   },
   {
     text: "Brett Dresbach",
     url: "Brett-Page",
     description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      "Click to learn more about Brett.",
   },
   {
     text: "Zach Hogan",
     url: "Zach-Page",
     description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
+      "Click to learn more about Zach.",
   },
   {
     text: "John Niesman",
     url: "John-Page",
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+      "Click to learn more about John.",
   },
 ]
 
@@ -73,10 +73,10 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/engineering_logo.png"
         loading="eager"
-        width={64}
-        quality={95}
+        width={200}
+        // quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
