@@ -15,19 +15,19 @@ const links = [
   },
   {
     text: "Brett Dresbach",
-    url: "page-2",
+    url: "Brett-Page",
     description:
       "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
   },
   {
     text: "Zach Hogan",
-    url: "page-2",
+    url: "Zach-Page",
     description:
       "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
   },
   {
     text: "John Niesman",
-    url: "page-2",
+    url: "John-Page",
     description:
       "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
   },
