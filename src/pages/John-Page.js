@@ -41,7 +41,6 @@ const PostTemplate = () => (
 
         <h3>Leave a comment below</h3>
         <div><Comments/></div>
-        <Link to="/">Go back to the homepage</Link>
     </Layout>
 )
 
