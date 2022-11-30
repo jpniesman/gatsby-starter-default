@@ -44,5 +44,10 @@ const PostTemplate = () => (
     </Layout>
 )
 
+<<<<<<< HEAD
 export const Head = () => <Seo title="Zach's Page" />
 export default PostTemplate
+=======
+export const Head = () => <Seo title="Brett's Page" />
+export default PostTemplate
+>>>>>>> d87c48f232bab6758587f51ec052a18cac8d81d2

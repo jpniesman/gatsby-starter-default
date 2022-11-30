@@ -41,63 +41,8 @@ const PostTemplate = () => (
 
         <h3>Leave a comment below</h3>
         <div><Comments/></div>
-        <Link to="/">Go back to the homepage</Link>
     </Layout>
 )
 
-export const Head = () => <Seo title="Page two" />
+export const Head = () => <Seo title="John's Page" />
 export default PostTemplate
-
-// import {graphql, Link} from "gatsby"
-// export const Head = ({ data: { markdownRemark: post } }) => {
-//     return (
-//         <Seo
-//             title={post.frontmatter.title}
-//             description={post.frontmatter.description || post.excerpt}
-//         />
-//     )
-// }
-
-// export default PostTemplate
-// export const pageQuery = graphql`
-//   query BlogPostBySlug(
-//     $id: String!
-//     $previousPostId: String
-//     $nextPostId: String
-//   ) {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//     markdownRemark(id: { eq: $id }) {
-//       id
-//       excerpt(pruneLength: 160)
-//       html
-//       fields {
-//         slug
-//       }
-//       frontmatter {
-//         title
-//         date(formatString: "MMMM DD, YYYY")
-//         description
-//       }
-//     }
-//     previous: markdownRemark(id: { eq: $previousPostId }) {
-//       fields {
-//         slug
-//       }
-//       frontmatter {
-//         title
-//       }
-//     }
-//     next: markdownRemark(id: { eq: $nextPostId }) {
-//       fields {
-//         slug
-//       }
-//       frontmatter {
-//         title
-//       }
-//     }
-//   }
-// `
