@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Comments from '../components/Comments'
+import ZachComments from '../components/ZachComments'
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -40,7 +40,7 @@ const PostTemplate = () => (
         <p>Phone Number: 847-840-8939</p>
 
         <h3>Leave a comment below</h3>
-        <div><Comments /></div>
+        <div><ZachComments /></div>
     </Layout>
 )
 
