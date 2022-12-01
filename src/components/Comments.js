@@ -9,7 +9,7 @@ const Comments = ({ issueTerm }) => {
         script.setAttribute('src', 'https://utteranc.es/client.js')
         script.setAttribute('crossorigin', 'anonymous')
         script.setAttribute('async', true)
-        script.setAttribute('repo', 'jpniesman/gatsby-starter-default')
+        script.setAttribute('repo', 'jpniesman/gatsby-team-6-portfolio')
         script.setAttribute('issue-term', issueTerm)
         script.setAttribute('theme', theme)
         anchor.appendChild(script)
